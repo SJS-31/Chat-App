@@ -1,0 +1,65 @@
+
+.logo{
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+}
+
+.container{
+    display: block;
+    margin: auto;
+    max-width: 955px;
+    height: 60vh;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGc_ns8uWX0shy16GIMyHpoOQ80r9pv3HS2g&usqp=CAU");
+    background-color: antiquewhite; 
+    border: 2px solid rgb(34, 32, 32);
+    border-radius: 5px;
+    overflow-y: auto;
+}
+
+.message{
+    color: black;
+    font-size: small;
+    width: auto;
+    padding: 8px;
+    margin: 17px 15px;
+    border: 0.25px solid;
+    border-radius: 10px;
+}
+
+.left{
+    background-color: aliceblue;
+    float: left;
+    clear: both;
+}
+
+.right{
+    background-color: rgb(150, 192, 150);
+    float: right;
+    clear: both;
+}
+
+#send-container{
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 958px;
+    width: 100%;
+}
+
+#messageInp{
+    margin: 3px;
+    width: 93%;
+    border: 2px solid rgb(34, 32, 32);
+    border-radius: 5px;
+    height: 30px;
+}
+
+.btn{
+    cursor: pointer;
+    background-color: rgb(10, 194, 117);
+    border: 2px solid black;
+    border-radius: 3px;
+    height: 30px;
+}
